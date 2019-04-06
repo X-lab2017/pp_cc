@@ -1,0 +1,112 @@
+{
+  "version": "1",
+  "title": "Flink 教程",
+  "author": "GitCourse",
+  "description": "Apache Flink is an open source platform for distributed stream and batch data processing. Flink’s core is a streaming dataflow engine that provides data distribution, communication, and fault tolerance for distributed computations over data streams. Flink builds batch processing on top of the streaming engine, overlaying native iteration support, managed memory, and program optimization.",
+  "scenarios": [
+    {
+      "title": "实验1-Git实训任务",
+      "pre": "pre.sh",
+      "steps": [
+        {
+          "title": "Setup: Download and Start Flink",
+          "text": "setup/text.md"
+        },
+        {
+          "title": "第二步",
+          "text": "setup/text.md"
+        }
+      ]
+    },
+    {
+      "title": "实验2-Hadoop实训任务",
+      "steps": [
+        {
+          "title": "Run the Example",
+          "text": "setup/text.md"
+        }
+      ]
+    },
+    {
+      "title": "实验3-OpenStack实训任务",
+      "steps": [
+        {
+          "title": "Run the Example",
+          "text": "setup/text.md"
+        }
+      ]
+    },
+    {
+      "title": "实验4-KVM实训任务",
+      "steps": [
+        {
+          "title": "Run the Example",
+          "text": "setup/text.md"
+        }
+      ]
+    },
+    {
+      "title": "实验5-Docker实训任务",
+      "steps": [
+        {
+          "title": "Run the Example",
+          "text": "setup/text.md"
+        }
+      ]
+    },
+    {
+      "title": "实验6-Ceph实训任务",
+      "steps": [
+        {
+          "title": "Run the Example",
+          "text": "setup/text.md"
+        }
+      ]
+    },
+    {
+      "title": "实验7-Mininet实训任务",
+      "steps": [
+        {
+          "title": "Run the Example",
+          "text": "setup/text.md"
+        }
+      ]
+    },
+    {
+      "title": "实验8-Kubernetes实训任务",
+      "steps": [
+        {
+          "title": "Run the Example",
+          "text": "setup/text.md"
+        }
+      ]
+    },
+    {
+      "title": "实验9-Mesos实训任务",
+      "steps": [
+        {
+          "title": "Run the Example",
+          "text": "setup/text.md"
+        }
+      ]
+    },
+    {
+      "title": "实验10-Spark实训任务",
+      "steps": [
+        {
+          "title": "Run the Example",
+          "text": "setup/text.md"
+        }
+      ]
+    },
+    {
+      "title": "实验11-TensorFlow实训任务",
+      "steps": [
+        {
+          "title": "Run the Example",
+          "text": "setup/text.md"
+        }
+      ]
+    }
+  ]
+}
