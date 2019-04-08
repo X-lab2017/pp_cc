@@ -27,16 +27,17 @@ Mesos 拥有许多引人注目的特性，包括：
 Mesos 自带了 Web 图形界面，可以方便用户查看集群状态。
 
 用户在 Mesos 主节点服务和从节点服务都启动后，可以通过浏览器访问主节点 5050 端口，看到类似如下界面，已经有两个 slave 节点加入了。
+![Mesos](https://upload-images.jianshu.io/upload_images/6252440-1438d0560cea5569.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-!(Mesos)[http://kfcoding.oss-cn-hangzhou.aliyuncs.com/72834c7d93e34a62915affbf7270d26f/resources/1528358804757.png]
 
 #### 访问 Marathon 图形界面
 Marathon 服务启动成功后，在 Mesos 的 web 界面的 Frameworks 标签页下面将能看到名称为 marathon 的框架出现。同时可以通过浏览器访问 8080 端口，看到 Marathon 自己的管理界面。
 
-!(Marathon)[http://kfcoding.oss-cn-hangzhou.aliyuncs.com/72834c7d93e34a62915affbf7270d26f/resources/1528358835508.png]
+![Marathon](https://upload-images.jianshu.io/upload_images/6252440-659f2dd1c8e0a539.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 此时，可以通过界面或者 REST API 来创建一个应用，Marathon 会保持该应用的持续运行。
-!(Marathon)[http://kfcoding.oss-cn-hangzhou.aliyuncs.com/72834c7d93e34a62915affbf7270d26f/resources/1528358847105.png]
+![Marathon](https://upload-images.jianshu.io/upload_images/6252440-7621de45353aa0bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 通过界面方式可以看到各任务支持的参数（包括资源、命令、环境变量、健康检查等），同时可以很容易地修改任务运行实例数进行扩展，非常适合进行测试。
 
