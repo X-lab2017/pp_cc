@@ -6,7 +6,6 @@
   "scenarios": [
     {
       "title": "实验1-Git实训任务",
-      "pre": "pre.sh",
       "steps": [
         {
           "title": "Git基本操作",
