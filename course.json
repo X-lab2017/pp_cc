@@ -9,12 +9,8 @@
       "pre": "pre.sh",
       "steps": [
         {
-          "title": "Setup: Download and Start Flink",
-          "text": "setup/text.md"
-        },
-        {
-          "title": "第二步",
-          "text": "setup/text.md"
+          "title": "Git基本操作",
+          "text": "course1-git/1.md"
         }
       ]
     },
@@ -22,8 +18,20 @@
       "title": "实验2-Hadoop实训任务",
       "steps": [
         {
-          "title": "Run the Example",
-          "text": "setup/text.md"
+          "title": "1. Hadoop简介",
+          "text": "course2-hadoop/1.md"
+        },
+        {
+          "title": "2. Haoop单机安装实验",
+          "text": "course2-hadoop/2.md"
+        },
+        {
+          "title": "3. HDFS简介",
+          "text": "course2-hadoop/3.md"
+        },
+        {
+          "title": "4. HDFS操作",
+          "text": "course2-hadoop/4.md"
         }
       ]
     },
@@ -31,8 +39,16 @@
       "title": "实验3-OpenStack实训任务",
       "steps": [
         {
-          "title": "Run the Example",
-          "text": "setup/text.md"
+          "title": "1. OpenStack简介",
+          "text": "course3-openstack/1.md"
+        },
+        {
+          "title": "2. OpenStack组件",
+          "text": "course3-openstack/2.md"
+        },
+        {
+          "title": "3. OpenStack安装部署—控制节点配置",
+          "text": "course3-openstack/3.md"
         }
       ]
     },
@@ -40,8 +56,8 @@
       "title": "实验4-KVM实训任务",
       "steps": [
         {
-          "title": "Run the Example",
-          "text": "setup/text.md"
+          "title": "KVM实训任务",
+          "text": "course4-kvm/1.md"
         }
       ]
     },
@@ -49,8 +65,8 @@
       "title": "实验5-Docker实训任务",
       "steps": [
         {
-          "title": "Run the Example",
-          "text": "setup/text.md"
+          "title": "Docker实训任务",
+          "text": "course5-docker/1.md"
         }
       ]
     },
@@ -58,8 +74,8 @@
       "title": "实验6-Ceph实训任务",
       "steps": [
         {
-          "title": "Run the Example",
-          "text": "setup/text.md"
+          "title": "Ceph实训任务",
+          "text": "course6-ceph/1.md"
         }
       ]
     },
@@ -67,8 +83,8 @@
       "title": "实验7-Mininet实训任务",
       "steps": [
         {
-          "title": "Run the Example",
-          "text": "setup/text.md"
+          "title": "Mininet实训任务",
+          "text": "course7-mininet/1.md"
         }
       ]
     },
@@ -76,8 +92,8 @@
       "title": "实验8-Kubernetes实训任务",
       "steps": [
         {
-          "title": "Run the Example",
-          "text": "setup/text.md"
+          "title": "Kubernetes实训任务",
+          "text": "course8-k8s/1.md"
         }
       ]
     },
@@ -85,8 +101,8 @@
       "title": "实验9-Mesos实训任务",
       "steps": [
         {
-          "title": "Run the Example",
-          "text": "setup/text.md"
+          "title": "Mesos实训任务",
+          "text": "course9-Mesos/1.md"
         }
       ]
     },
@@ -94,8 +110,8 @@
       "title": "实验10-Spark实训任务",
       "steps": [
         {
-          "title": "Run the Example",
-          "text": "setup/text.md"
+          "title": "Spark实训任务",
+          "text": "course10-spark/1.md"
         }
       ]
     },
@@ -103,8 +119,8 @@
       "title": "实验11-TensorFlow实训任务",
       "steps": [
         {
-          "title": "Run the Example",
-          "text": "setup/text.md"
+          "title": "TensorFlow实训任务",
+          "text": "course11-tensorflow/1.md"
         }
       ]
     }
