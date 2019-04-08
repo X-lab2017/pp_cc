@@ -9,7 +9,7 @@
       "steps": [
         {
           "title": "Git基本操作",
-          "text": "course1-git/1.md"
+          "text": "setup/1-git.md"
         }
       ]
     },
@@ -18,19 +18,19 @@
       "steps": [
         {
           "title": "1. Hadoop简介",
-          "text": "course2-hadoop/1.md"
+          "text": "setup/2.1-hadoop.md"
         },
         {
           "title": "2. Haoop单机安装实验",
-          "text": "course2-hadoop/2.md"
+          "text": "setup/2.2-hadoop.md"
         },
         {
           "title": "3. HDFS简介",
-          "text": "course2-hadoop/3.md"
+          "text": "setup/2.3-hadoop.md"
         },
         {
           "title": "4. HDFS操作",
-          "text": "course2-hadoop/4.md"
+          "text": "setup/2.4-hadoop.md"
         }
       ]
     },
@@ -39,15 +39,15 @@
       "steps": [
         {
           "title": "1. OpenStack简介",
-          "text": "course3-openstack/1.md"
+          "text": "setup/3.1-openstack.md"
         },
         {
           "title": "2. OpenStack组件",
-          "text": "course3-openstack/2.md"
+          "text": "setup/3.2-openstack.md"
         },
         {
           "title": "3. OpenStack安装部署—控制节点配置",
-          "text": "course3-openstack/3.md"
+          "text": "setup/3.3-openstack.md"
         }
       ]
     },
@@ -56,7 +56,7 @@
       "steps": [
         {
           "title": "KVM实训任务",
-          "text": "course4-kvm/1.md"
+          "text": "setup/4-kvm.md"
         }
       ]
     },
@@ -65,7 +65,7 @@
       "steps": [
         {
           "title": "Docker实训任务",
-          "text": "course5-docker/1.md"
+          "text": "setup/5-docker.md"
         }
       ]
     },
@@ -74,7 +74,7 @@
       "steps": [
         {
           "title": "Ceph实训任务",
-          "text": "course6-ceph/1.md"
+          "text": "setup/6-ceph.md"
         }
       ]
     },
@@ -83,7 +83,7 @@
       "steps": [
         {
           "title": "Mininet实训任务",
-          "text": "course7-mininet/1.md"
+          "text": "setup/7-mininet.md"
         }
       ]
     },
@@ -92,7 +92,7 @@
       "steps": [
         {
           "title": "Kubernetes实训任务",
-          "text": "course8-k8s/1.md"
+          "text": "setup/8-k8s.md"
         }
       ]
     },
@@ -101,7 +101,7 @@
       "steps": [
         {
           "title": "Mesos实训任务",
-          "text": "course9-Mesos/1.md"
+          "text": "setup/9-mesos.md"
         }
       ]
     },
@@ -110,7 +110,7 @@
       "steps": [
         {
           "title": "Spark实训任务",
-          "text": "course10-spark/1.md"
+          "text": "setup/10-spark.md"
         }
       ]
     },
@@ -119,7 +119,7 @@
       "steps": [
         {
           "title": "TensorFlow实训任务",
-          "text": "course11-tensorflow/1.md"
+          "text": "setup/11-tensorflow.md"
         }
       ]
     }
