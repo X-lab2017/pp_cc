@@ -9,7 +9,7 @@
       "steps": [
         {
           "title": "Git基本操作",
-          "text": "setup/1-git.md"
+          "text": "setup/git.md"
         }
       ]
     },
