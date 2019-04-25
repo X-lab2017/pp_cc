@@ -6,17 +6,17 @@
   "scenarios": [
     {
       "title": "实验1-Git实训任务",
-      "environment": "git",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "steps": [
         {
           "title": "Git基本操作",
-          "text": "setup/git.md"
+          "text": "setup/1-git.md"
         }
       ]
     },
     {
       "title": "实验2-Hadoop实训任务",
-      "environment": "hadoop",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:hadoop",
       "steps": [
         {
           "title": "1. Hadoop简介",
@@ -38,7 +38,7 @@
     },
     {
       "title": "实验3-OpenStack实训任务",
-      "environment": "ubuntu",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "steps": [
         {
           "title": "1. OpenStack简介",
@@ -56,7 +56,7 @@
     },
     {
       "title": "实验4-KVM实训任务",
-      "environment": "ubuntu",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "steps": [
         {
           "title": "KVM实训任务",
@@ -66,7 +66,7 @@
     },
     {
       "title": "实验5-Docker实训任务",
-      "environment": "docker",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:docker",
       "steps": [
         {
           "title": "Docker实训任务",
@@ -76,7 +76,7 @@
     },
     {
       "title": "实验6-Ceph实训任务",
-      "environment": "ubuntu",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "steps": [
         {
           "title": "Ceph实训任务",
@@ -86,7 +86,7 @@
     },
     {
       "title": "实验7-Mininet实训任务",
-      "environment": "ubuntu",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "steps": [
         {
           "title": "Mininet实训任务",
@@ -96,7 +96,7 @@
     },
     {
       "title": "实验8-Kubernetes实训任务",
-      "environment": "ubuntu",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "steps": [
         {
           "title": "Kubernetes实训任务",
@@ -106,7 +106,7 @@
     },
     {
       "title": "实验9-Mesos实训任务",
-      "environment": "ubuntu",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "steps": [
         {
           "title": "Mesos实训任务",
@@ -116,7 +116,7 @@
     },
     {
       "title": "实验10-Spark实训任务",
-      "environment": "spark",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:spark",
       "steps": [
         {
           "title": "Spark实训任务",
@@ -126,7 +126,7 @@
     },
     {
       "title": "实验11-TensorFlow实训任务",
-      "environment": "tensorflow",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:tensorflow",
       "steps": [
         {
           "title": "TensorFlow实训任务",
