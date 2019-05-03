@@ -6,7 +6,7 @@
   "scenarios": [
     {
       "title": "实验1-Git实训任务",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
       "steps": [
         {
           "title": "Git基本操作",
@@ -37,35 +37,7 @@
       ]
     },
     {
-      "title": "实验3-OpenStack实训任务",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
-      "steps": [
-        {
-          "title": "1. OpenStack简介",
-          "text": "setup/3.1-openstack.md"
-        },
-        {
-          "title": "2. OpenStack组件",
-          "text": "setup/3.2-openstack.md"
-        },
-        {
-          "title": "3. OpenStack安装部署—控制节点配置",
-          "text": "setup/3.3-openstack.md"
-        }
-      ]
-    },
-    {
-      "title": "实验4-KVM实训任务",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
-      "steps": [
-        {
-          "title": "KVM实训任务",
-          "text": "setup/4-kvm.md"
-        }
-      ]
-    },
-    {
-      "title": "实验5-Docker实训任务",
+      "title": "实验3-Docker实训任务",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:docker",
       "steps": [
         {
@@ -75,7 +47,7 @@
       ]
     },
     {
-      "title": "实验6-Ceph实训任务",
+      "title": "实验4-Ceph实训任务",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "steps": [
         {
@@ -85,7 +57,7 @@
       ]
     },
     {
-      "title": "实验7-Mininet实训任务",
+      "title": "实验5-Mininet实训任务",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "steps": [
         {
@@ -95,7 +67,7 @@
       ]
     },
     {
-      "title": "实验8-Kubernetes实训任务",
+      "title": "实验6-Kubernetes实训任务",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "steps": [
         {
@@ -105,17 +77,7 @@
       ]
     },
     {
-      "title": "实验9-Mesos实训任务",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
-      "steps": [
-        {
-          "title": "Mesos实训任务",
-          "text": "setup/9-mesos.md"
-        }
-      ]
-    },
-    {
-      "title": "实验10-Spark实训任务",
+      "title": "实验7-Spark实训任务",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:spark",
       "steps": [
         {
@@ -125,7 +87,7 @@
       ]
     },
     {
-      "title": "实验11-TensorFlow实训任务",
+      "title": "实验8-TensorFlow实训任务",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:tensorflow",
       "steps": [
         {
