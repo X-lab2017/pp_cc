@@ -23,16 +23,8 @@
           "text": "setup/2.1-hadoop.md"
         },
         {
-          "title": "2. Haoop单机安装实验",
+          "title": "3. HDFS基本操作实验",
           "text": "setup/2.2-hadoop.md"
-        },
-        {
-          "title": "3. HDFS简介",
-          "text": "setup/2.3-hadoop.md"
-        },
-        {
-          "title": "4. HDFS操作",
-          "text": "setup/2.4-hadoop.md"
         }
       ]
     },
@@ -81,8 +73,16 @@
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:spark",
       "steps": [
         {
-          "title": "Spark实训任务",
+          "title": "Spark简介",
           "text": "setup/10-spark.md"
+        },
+        {
+          "title": "1. 用Spark计算PI的值",
+          "text": "setup/10.1-spark.md"
+        },
+        {
+          "title": "2. 在spark-shell中执行词频统计",
+          "text": "setup/10.2-spark.md"
         }
       ]
     },
