@@ -83,6 +83,14 @@
         {
           "title": "2. 在spark-shell中执行词频统计",
           "text": "setup/10.2-spark.md"
+        },
+        {
+          "title": "3. 在spark-shell中执行词频统计",
+          "text": "setup/10.3-spark.md"
+        },
+        {
+          "title": "4. 在spark-shell中执行词频统计",
+          "text": "setup/10.4-spark.md"
         }
       ]
     },
