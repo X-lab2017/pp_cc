@@ -91,7 +91,27 @@
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:tensorflow",
       "steps": [
         {
-          "title": "TensorFlow实训任务",
+          "title": "1. 加载MNIST数据集",
+          "text": "setup/11.1-tensorflow.md"
+        },
+        {
+          "title": "2. 训练数据",
+          "text": "setup/11.2-tensorflow.md"
+        },
+        {
+          "title": "3. 网络变量",
+          "text": "setup/11.3-tensorflow.md"
+        },
+        {
+          "title": "4. 损失函数优化",
+          "text": "setup/11.4-tensorflow.md"
+        },
+        {
+          "title": "5. 训练",
+          "text": "setup/11.5-tensorflow.md"
+        },
+        {
+          "title": "6. 模型评估",
           "text": "setup/11-tensorflow.md"
         }
       ]
