@@ -37,8 +37,20 @@
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:docker",
       "steps": [
         {
-          "title": "Docker实训任务",
-          "text": "setup/5-docker.md"
+          "title": "Docker简介",
+          "text": "setup/3.0-docker.md"
+        },
+        {
+          "title": "1. Docker镜像基本操作,",
+          "text": "setup/3.1-docker.md"
+        },
+        {
+          "title": "2. 容器基本操作,",
+          "text": "setup/3.2-docker.md"
+        },
+        {
+          "title": "3. 数据卷基本操作",
+          "text": "setup/3.3-docker.md"
         }
       ]
     },
@@ -48,7 +60,7 @@
       "steps": [
         {
           "title": "Ceph实训任务",
-          "text": "setup/6-ceph.md"
+          "text": "setup/4-ceph.md"
         }
       ]
     },
@@ -58,7 +70,7 @@
       "steps": [
         {
           "title": "Mininet实训任务",
-          "text": "setup/7-mininet.md"
+          "text": "setup/5-mininet.md"
         }
       ]
     },
@@ -68,7 +80,7 @@
       "steps": [
         {
           "title": "Kubernetes实训任务",
-          "text": "setup/8-k8s.md"
+          "text": "setup/6-k8s.md"
         }
       ]
     },
@@ -78,7 +90,7 @@
       "steps": [
         {
           "title": "Spark简介",
-          "text": "setup/10-spark.md"
+          "text": "setup/10.0-spark.md"
         },
         {
           "title": "1. 用Spark计算PI的值",
@@ -104,7 +116,7 @@
       "steps": [
         {
           "title": "实验简介",
-          "text": "setup/11-tensorflow.md"
+          "text": "setup/11.0-tensorflow.md"
         },
         {
           "title": "1. 加载MNIST数据集",
