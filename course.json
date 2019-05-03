@@ -5,7 +5,7 @@
   "description": "《云计算原理与实践》共分四大部分：第一部分概念与基础主要包括云计算概述、分布式计算和云计算架构；第二部分原理与技术主要包括虚拟化技术、分布式存储、云计算网络以及云计算安全；第三部分开发与运维主要包括云原生应用的开发、云操作系统、云端软件以及云计算运维；第四部分应用与案例包括桌面云、软件开发云、大数据与人工智能三个云计算重要的应用领域。在整本书系统讲述云计算原理的同时，还在大部分章中安排一个或多个相关的开源软件，以帮助读者进行有效的实践，这些开源项目包括了：GitHub、Hadoop、OpenStack、KVM、Xen、Docker、Ceph、Mininet、Mesos、Kubernetes、CloudwareHub等。目前主要的实训任务如下。\nGit实训任务（分布式版本控制系统）\nHadoop实训任务（分布式实例）\nOpenStack实训任务（云计算架构）\nKVM实训任务（虚拟化技术）\nDocker实训任务（轻量级虚拟化技术）\nCeph实训任务（分布式存储技术）\nMininet实训任务（云计算网络）\nKubernetes实训任务（云原生）\nMesos实训任务（云操作系统）\nSpark实训任务（大数据应用）\nTensorFlow实训任务（人工智能应用）\n",
   "scenarios": [
     {
-      "title": "实验1-Git实训任务",
+      "title": "实训1-Git基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
       "steps": [
         {
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "title": "实验2-Hadoop实训任务",
+      "title": "实训2-Hadoop基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:hadoop",
       "steps": [
         {
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "title": "实验3-Docker实训任务",
+      "title": "实训3-Docker基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:docker",
       "steps": [
         {
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "title": "实验4-Ceph实训任务",
+      "title": "实训4-Ceph基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "steps": [
         {
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "title": "实验5-Mininet实训任务",
+      "title": "实训5-Mininet基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "steps": [
         {
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "title": "实验6-Kubernetes实训任务",
+      "title": "实训6-Kubernetes基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
       "steps": [
         {
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "title": "实验7-Spark实训任务",
+      "title": "实训7-Spark基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:spark",
       "steps": [
         {
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "title": "实验8-TensorFlow实训任务",
+      "title": "实训8-TensorFlow基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:tensorflow",
       "steps": [
         {
