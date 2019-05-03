@@ -34,7 +34,7 @@
     },
     {
       "title": "实训3-Docker基本操作",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:docker",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:ubuntu-docker",
       "steps": [
         {
           "title": "Docker简介",
