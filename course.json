@@ -91,6 +91,10 @@
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:tensorflow",
       "steps": [
         {
+          "title": "实验简介",
+          "text": "setup/11-tensorflow.md"
+        },
+        {
           "title": "1. 加载MNIST数据集",
           "text": "setup/11.1-tensorflow.md"
         },
@@ -112,7 +116,7 @@
         },
         {
           "title": "6. 模型评估",
-          "text": "setup/11-tensorflow.md"
+          "text": "setup/11.6-tensorflow.md"
         }
       ]
     }
