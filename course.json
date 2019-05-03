@@ -28,7 +28,7 @@
         },
         {
           "title": "3. MapReduce基本操作实验",
-          "text": "setup/2.2-hadoop.md"
+          "text": "setup/2.3-hadoop.md"
         }
       ]
     },
