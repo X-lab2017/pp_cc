@@ -56,11 +56,15 @@
     },
     {
       "title": "实训4-Ceph基本操作",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:ceph",
       "steps": [
         {
-          "title": "Ceph实训任务",
-          "text": "setup/4-ceph.md"
+          "title": "Ceph简介",
+          "text": "setup/4.0-ceph.md"
+        },
+        {
+          "title": "基于docker的Ceph基本操作实验",
+          "text": "setup/4.1-ceph.md"
         }
       ]
     },
