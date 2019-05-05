@@ -95,7 +95,7 @@
     },
     {
       "title": "实训6-Kubernetes基本操作",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:minikube",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:minikube2",
       "privileged": true,
       "steps": [
         {
