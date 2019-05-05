@@ -35,6 +35,7 @@
     {
       "title": "实训3-Docker基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:ubuntu-docker",
+      "privileged": true,
       "steps": [
         {
           "title": "Docker简介",
@@ -57,6 +58,7 @@
     {
       "title": "实训4-Ceph基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:ceph",
+      "privileged": true,
       "steps": [
         {
           "title": "Ceph简介",
@@ -71,6 +73,7 @@
     {
       "title": "实训5-Mininet基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:mininet",
+      "privileged": true,
       "steps": [
         {
           "title": "Mininet实训任务",
@@ -93,6 +96,7 @@
     {
       "title": "实训6-Kubernetes基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:minikube",
+      "privileged": true,
       "steps": [
         {
           "title": "Kubernetes简介",
