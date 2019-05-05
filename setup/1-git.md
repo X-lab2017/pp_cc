@@ -22,4 +22,4 @@ Git 是用于 Linux内核开发的版本控制工具。与常用的版本控制�
 3. 向公共服务器提交结果，然后通知所有开发人员。
 
 ## 实训任务
-本平台中已经有完整的Git实训课程，读者可直接在[Git版本控制课程](http://kfcoding.com/editor/3462c6c6d2bb411ea7367f7089b26419)中完成实训任务。
+本平台中已经有完整的Git实训课程，读者可直接在[Git版本控制课程](http://gitcourse.kfcoding.com/#https://github.com/openx-lab/git.git)中完成实训任务。
