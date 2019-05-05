@@ -70,11 +70,23 @@
     },
     {
       "title": "实训5-Mininet基本操作",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:latest",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:mininet",
       "steps": [
         {
           "title": "Mininet实训任务",
-          "text": "setup/5-mininet.md"
+          "text": "setup/5.0-mininet.md"
+        },
+        {
+          "title": "查看现有网络拓扑中的节点网络状态",
+          "text": "setup/5.1-mininet.md"
+        },
+        {
+          "title": "创建网络拓扑结构的命令参数",
+          "text": "setup/5.2-mininet.md"
+        },
+        {
+          "title": "修改当前网络拓扑的命令参数",
+          "text": "setup/5.3-mininet.md"
         }
       ]
     },
