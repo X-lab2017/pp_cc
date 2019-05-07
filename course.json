@@ -57,7 +57,7 @@
     },
     {
       "title": "实训4-Ceph基本操作",
-      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:ceph",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:ceph-latest",
       "privileged": true,
       "steps": [
         {
