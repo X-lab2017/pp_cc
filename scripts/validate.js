@@ -19,7 +19,7 @@ if (document.location.host == 'gitcourse.kfcoding.com') {
     });
 
      var gitRepo = window.location.href.substr(window.location.href.indexOf("#")+1, window.location.href.length)
-
+    alert("登录成功")
 
     fetch('http://api.kfcoding.com/api/basic/scenes/isin/'+gitRepo, {
         headers: {
