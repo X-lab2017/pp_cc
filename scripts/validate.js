@@ -18,15 +18,15 @@ if (document.location.host == 'gitcourse.kfcoding.com') {
         }
     });
 
-     var gitRepo = window.location.href.substr(window.location.href.indexOf("#")+1, window.location.href.length)
-    alert("登录成功")
+    var gitRepo = window.location.href.substr(window.location.href.indexOf("#")+1, window.location.href.length)
 
     fetch('http://api.kfcoding.com/api/basic/scenes/isin/'+gitRepo, {
         headers: {
             'Content-Type': 'application/json',
             Authorization: getCookie('token')
         },
-        method: 'GET',
+        method: 'POST',
+        body: JSON.stringify({repo: gitRepo})
     }).then(resp => resp.json()).then(data => {
         if (data.status !== 200) {
             window.location.href = "http://kfcoding.com/user/login?redirect=" + window.location.href;
