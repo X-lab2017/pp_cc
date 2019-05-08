@@ -20,7 +20,7 @@ if (document.location.host == 'gitcourse.kfcoding.com') {
 
     var gitRepo = window.location.href.substr(window.location.href.indexOf("#")+1, window.location.href.length)
 
-    fetch('http://api.kfcoding.com/api/basic/scenes/isin/', {
+    fetch('http://api.kfcoding.com/api/basic/scenes/isIn', {
         headers: {
             'Content-Type': 'application/json',
             Authorization: getCookie('token')
