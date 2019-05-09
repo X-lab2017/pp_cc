@@ -5,7 +5,7 @@ function getCookie(name) {
 }
 
 if (document.location.host == 'gitcourse.kfcoding.com') {
-
+    console.log(data)
     fetch('http://api.kfcoding.com/api/basic/users/current', {
         headers: {
             'Content-Type': 'application/json',
@@ -13,6 +13,7 @@ if (document.location.host == 'gitcourse.kfcoding.com') {
         },
         method: 'GET',
     }).then(resp => resp.json()).then(data => {
+
         if (data.status !== 200) {
         window.location.href = "http://kfcoding.com/user/login?redirect=" + window.location.href;
         }
