@@ -4,11 +4,13 @@ function getCookie(name) {
     if (parts.length == 2) return parts.pop().split(";").shift();
 }
 
+var token = getCookie('token');
+
 if (document.location.host == 'gitcourse.kfcoding.com') {
     fetch('http://api.kfcoding.com/api/basic/users/current', {
         headers: {
             'Content-Type': 'application/json',
-            Authorization: getCookie('token')
+            Authorization: token
         },
         method: 'GET',
     }).then(resp => resp.json()).then(data => {
@@ -23,7 +25,7 @@ if (document.location.host == 'gitcourse.kfcoding.com') {
     fetch('http://api.kfcoding.com/api/basic/scenes/isIn', {
         headers: {
             'Content-Type': 'application/json',
-            Authorization: getCookie('token')
+            Authorization: token
         },
         method: 'POST',
         body: JSON.stringify({repo: gitRepo})
