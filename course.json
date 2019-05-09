@@ -6,179 +6,201 @@
   "scenarios": [
     {
       "title": "实训1-Git基本操作",
-      "preload": "scripts/validate.js",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
       "steps": [
         {
+          "preload": "scripts/validate.js",
           "title": "Git基本操作",
           "text": "setup/1-git.md"
         }
       ]
     },
     {
-      "preload": "scripts/validate.js",
       "title": "实训2-Hadoop基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:hadoop",
       "steps": [
         {
+          "preload": "scripts/validate.js",
           "title": "1. Hadoop简介",
           "text": "setup/2.1-hadoop.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "2. HDFS基本操作实验",
           "text": "setup/2.2-hadoop.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "3. MapReduce基本操作实验",
           "text": "setup/2.3-hadoop.md"
         }
       ]
     },
     {
-      "preload": "scripts/validate.js",
       "title": "实训3-Docker基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:ubuntu-docker",
       "privileged": true,
       "steps": [
         {
+          "preload": "scripts/validate.js",
           "title": "Docker简介",
           "text": "setup/3.0-docker.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "1. Docker镜像基本操作,",
           "text": "setup/3.1-docker.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "2. 容器基本操作,",
           "text": "setup/3.2-docker.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "3. 数据卷基本操作",
           "text": "setup/3.3-docker.md"
         }
       ]
     },
     {
-      "preload": "scripts/validate.js",
       "title": "实训4-Ceph基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:ceph-latest",
       "privileged": true,
       "steps": [
         {
+          "preload": "scripts/validate.js",
           "title": "Ceph简介",
           "text": "setup/4.0-ceph.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "基于docker的Ceph基本操作实验",
           "text": "setup/4.1-ceph.md"
         }
       ]
     },
     {
-      "preload": "scripts/validate.js",
       "title": "实训5-Mininet基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:mininet",
       "privileged": true,
       "steps": [
         {
+          "preload": "scripts/validate.js",
           "title": "Mininet实训任务",
           "text": "setup/5.0-mininet.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "查看现有网络拓扑中的节点网络状态",
           "text": "setup/5.1-mininet.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "创建网络拓扑结构的命令参数",
           "text": "setup/5.2-mininet.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "修改当前网络拓扑的命令参数",
           "text": "setup/5.3-mininet.md"
         }
       ]
     },
     {
-      "preload": "scripts/validate.js",
       "title": "实训6-Kubernetes基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:minikube",
       "privileged": true,
       "steps": [
         {
+          "preload": "scripts/validate.js",
           "title": "Kubernetes简介",
           "text": "setup/6.0-k8s.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "实验1. Minikube基本操作",
           "text": "setup/6.1-k8s.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "实验2. 通过kubectl部署容器",
           "text": "setup/6.2-k8s.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "实验3. 通过YAML文件部署容器",
           "text": "setup/6.3-k8s.md"
         }
       ]
     },
     {
-      "preload": "scripts/validate.js",
       "title": "实训7-Spark基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:spark",
       "steps": [
         {
+          "preload": "scripts/validate.js",
           "title": "Spark简介",
           "text": "setup/10.0-spark.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "1. 用Spark计算PI的值",
           "text": "setup/10.1-spark.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "2. 在spark-shell中执行词频统计",
           "text": "setup/10.2-spark.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "3. 在spark-shell中执行词频统计",
           "text": "setup/10.3-spark.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "4. 在spark-shell中执行词频统计",
           "text": "setup/10.4-spark.md"
         }
       ]
     },
     {
-      "preload": "scripts/validate.js",
       "title": "实训8-TensorFlow基本操作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:tensorflow",
       "steps": [
         {
+          "preload": "scripts/validate.js",
           "title": "实验简介",
           "text": "setup/11.0-tensorflow.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "1. 加载MNIST数据集",
           "text": "setup/11.1-tensorflow.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "2. 训练数据",
           "text": "setup/11.2-tensorflow.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "3. 网络变量",
           "text": "setup/11.3-tensorflow.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "4. 损失函数优化",
           "text": "setup/11.4-tensorflow.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "5. 训练",
           "text": "setup/11.5-tensorflow.md"
         },
         {
+          "preload": "scripts/validate.js",
           "title": "6. 模型评估",
           "text": "setup/11.6-tensorflow.md"
         }
