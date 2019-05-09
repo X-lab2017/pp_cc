@@ -12,7 +12,7 @@ if (document.location.host == 'gitcourse.kfcoding.com') {
         },
         method: 'GET',
     }).then(resp => resp.json()).then(data => {
-        alert(data.status)
+        alert("current"+"if="+(data.status !== 200));
         if (data.status !== 200) {
         window.location.href = "http://kfcoding.com/user/login?redirect=" + window.location.href;
         }
@@ -28,8 +28,7 @@ if (document.location.host == 'gitcourse.kfcoding.com') {
         method: 'POST',
         body: JSON.stringify({repo: gitRepo})
     }).then(resp => resp.json()).then(data => {
-        alert(data.toString());
-        console.log(data)
+        alert(JSON.stringify(data);
         if (data.data.status !== 200) {
             window.location.href = "http://kfcoding.com/user/login?redirect=" + window.location.href;
         } else {
