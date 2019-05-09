@@ -28,11 +28,11 @@ if (document.location.host == 'gitcourse.kfcoding.com') {
         method: 'POST',
         body: JSON.stringify({repo: gitRepo})
     }).then(resp => resp.json()).then(data => {
-        alert(data)
-        if (data.status !== 200) {
+        console.log(data)
+        if (data.data.status !== 200) {
             window.location.href = "http://kfcoding.com/user/login?redirect=" + window.location.href;
         } else {
-            if(!data.rel)
+            if(!data.data.rel)
                 window.location.href = "http://kfcoding.com/account/authBook?redirect=" + window.location.href;
         }
     });
