@@ -203,10 +203,6 @@
           "preload": "scripts/validate.js",
           "title": "6. 模型评估",
           "text": "setup/11.6-tensorflow.md"
-        },
-        {
-          "title": "Complete",
-          "text": "setup/11.7-complete.md"
         }
       ]
     }
